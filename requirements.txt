@@ -1,6 +1,4 @@
+bentoml==1.4.31
+scikit-learn
 pandas
 numpy
-scikit-learn
-kagglehub
-joblib
-streamlit

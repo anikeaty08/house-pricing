@@ -1,0 +1,9 @@
+service: service:HousingPriceService
+include:
+  - service.py
+python:
+  packages:
+    - bentoml==1.4.31
+    - scikit-learn
+    - pandas
+    - numpy
