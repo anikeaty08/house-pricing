@@ -1,0 +1,35 @@
+# Virtual environment
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Model files
+models/
+
+# Data files (optional, uncomment if you don't want to commit data)
+# housing.csv
+
+# Streamlit cache
+.streamlit/
+
+# OS files
+.DS_Store
+Thumbs.db# Virtual environment
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Saved ML models (VERY IMPORTANT)
+models/
+
+# Streamlit cache
+.streamlit/
+
+# OS files
+.DS_Store
+Thumbs.db
+
