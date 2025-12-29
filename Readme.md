@@ -65,31 +65,30 @@ house-pricing/
 ├── models/             # Saved models (ignored in Git)
 ├── env/                # Virtual environment (ignored)
 └── README.md
+
+
 🚀 How to Run the Project
 1️⃣ Clone the repository
-bash
-Copy code
 git clone https://github.com/anikeaty08/house-pricing.git
 cd house-pricing
+
 2️⃣ Create & activate virtual environment
-bash
-Copy code
 python -m venv env
 env\Scripts\activate   # Windows
+
 3️⃣ Install dependencies
-bash
-Copy code
 pip install -r requirements.txt
+
 4️⃣ Train the model
-bash
-Copy code
 python main.py
+
+
 This trains the model and saves it locally inside the models/ directory.
 
 🌐 Run the Web App (Streamlit)
-bash
-Copy code
 streamlit run app.py
+
+
 Open browser at: http://localhost:8501
 
 Enter house details
@@ -97,22 +96,3 @@ Enter house details
 Click Predict
 
 Get the estimated house price 💰
-
-❗ Important Notes
-Trained model files (.pkl) are not pushed to GitHub due to size limits.
-
-The model can be recreated locally by running main.py.
-
-This project follows industry best practices for ML projects.
-
-📌 Future Improvements
-Hyperparameter tuning
-
-Feature engineering
-
-Model comparison (XGBoost, Gradient Boosting)
-
-Cloud deployment
-
-Prediction confidence intervals
-
